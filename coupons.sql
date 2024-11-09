@@ -97,8 +97,8 @@ CREATE TABLE `coupons` (
 --
 
 INSERT INTO `coupons` (`id`, `coupon_name`, `coupon_id`, `coupon_type`, `coupon_value`, `minimum_price`, `coupon_count`, `coupon_used_count`, `coupon_specified`, `in_category`, `not_category`, `in_brand`, `not_brand`, `in_product`, `not_product`, `coupon_duration`, `created_on`, `created_by`) VALUES
-(7, '500 off on all', 'Flat500', 'flat', 500, 1999, 1, 0, '', '', '', '', '', '', '', '2024-11-13', '2024-11-07 02:45:19', 0),
-(8, '500 off on shirts and t-shirts', 'Flat500S', 'flat', 500, 999, 2, 0, '', '', '[\"1\",\"3\"]', '[\"2\"]', '', '', '', '2024-11-13', '2024-11-07 04:05:32', 0);
+(1, '500 off on all', 'Flat500', 'flat', 500, 1999, 1, 0, '', '', '', '', '', '', '', '2024-11-13', '2024-11-07 02:45:19', 0),
+(2, '500 off on shirts and t-shirts', 'Flat500S', 'flat', 500, 999, 2, 0, '', '', '[\"1\",\"3\"]', '[\"2\"]', '', '', '', '2024-11-13', '2024-11-07 04:05:32', 0);
 
 -- --------------------------------------------------------
 
@@ -182,7 +182,7 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `coupons`
 --
 ALTER TABLE `coupons`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `products`
